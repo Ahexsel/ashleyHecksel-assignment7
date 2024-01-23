@@ -23,7 +23,7 @@ public class CustomArrayList<T> implements CustomList<T> {
 
 	@Override
 	public int getSize() {
-		return 0;
+		return size; //returns the actual size of the list
 	}
 
 	
